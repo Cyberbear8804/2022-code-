@@ -16,9 +16,9 @@ import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 // Run the FRC Driver Station app in order to communicate with the RIO
 // Cross your fingers and move the joystick!
 // hope it works out, contact us if y'all need anything. Email me if you need at ansharyan03@gmail.com - Ansh, 4828 :D
+//Branch test
 
-
-/**
+/** 
  * This is a demo program showing the use of the DifferentialDrive class. Runs the motors with
  * arcade steering.
  */
@@ -36,7 +36,8 @@ public class Robot extends TimedRobot {
 
   private final MotorController shooter = new PWMVictorSPX(5);
   private final Joystick m_stick = new Joystick(0);
-  
+  private final int a=0;
+
   @Override
   public void robotInit() {
     // We need to invert one side of the drivetrain so that positive voltages
