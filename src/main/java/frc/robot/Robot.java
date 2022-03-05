@@ -36,7 +36,7 @@ public class Robot extends TimedRobot {
 
   private final MotorController shooter = new PWMVictorSPX(5);
   private final Joystick m_stick = new Joystick(0);
-  private final int a=0;
+  
 
   @Override
   public void robotInit() {
